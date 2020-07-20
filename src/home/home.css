@@ -1,0 +1,98 @@
+.home {
+    position: relative;
+    height: 100vh;
+    width:  98vw;
+    overflow: hidden;
+    background: #f5f5f5; 
+    
+}
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.background-box {
+    padding: 25vw 25vw;
+    padding-right: 29rem;
+    background :url(../images/photo-1519638399535-1b036603ac77.jpg), linear-gradient(rgba(37, 37, 37, 0.089),rgba(70, 65, 65, 0.774));
+    background-size: cover;
+     background-blend-mode: overlay;
+    transform: rotate(-21deg);
+    position: absolute;
+    left:-5vw;
+    bottom: -2vw;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.text-photo {
+    font-size: 12vw;
+    color: white;
+    position: absolute;
+    left: 15vw;
+    bottom: 10vh;
+    z-index: 2;
+    cursor: default;
+    animation: animatePhoto 2s;
+}
+.text-gallery {
+    font-size: 10vw;
+    color: #444444;
+    position: absolute;
+    right:5rem;
+    top:2vh;
+    z-index: 2;
+    cursor: default;
+    animation: animateGallery 3s;
+}
+.text-author {
+    color: #444444;
+    position: absolute;
+    right:5rem;
+    font-size: 3vw;
+    bottom:5vh;
+    z-index: 2;
+    cursor: default;
+    font-weight: lighter;
+    animation: animateSaramsh 2.5s;
+}
+.nav-bar a h2 {
+    color: #1a1919;
+    padding: 0rem 5rem;
+    margin-left: 2rem;
+}
+.nav-bar a :hover {
+    cursor: pointer;
+    border-bottom: #ff2793 solid;
+    transition: 0.1s;
+}
+@keyframes animatePhoto {
+    from {
+        opacity: 0;
+        bottom: 0rem;
+    }
+    to {
+        opacity: 1;
+        bottom: 5rem;
+    }
+}
+@keyframes animateGallery {
+    from {
+        opacity: 0;
+        right: 0rem;
+    }
+    to {
+        opacity: 1;
+       
+    }
+}
+@keyframes animateSaramsh {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+       
+    }
+}

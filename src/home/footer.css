@@ -1,0 +1,56 @@
+.footer {
+    display: flex;
+    background-color: #312f2f;
+    align-items: center;
+    background-color: #312f2f;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+a {
+    text-decoration: none;
+}
+h3 {
+    color: #9c8f8f;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+}
+li {
+    list-style: none;
+}
+.contact ul {
+    display: flex;
+    width: 30rem;
+    justify-content: space-between;
+
+}
+
+a {
+    color: rgb(148, 148, 148);
+    font-weight: 100;
+}
+#facebook :hover {
+    transition: 0.5s;
+    color: #4930d6;
+    transform: scale(2,2);
+}
+#github :hover {
+    transition: 0.5s;
+    color: #6d6a6a;
+    transform: scale(2,2);
+}
+#instagram :hover {
+    transition: 0.5s;
+    color: #e1306c;
+    transform: scale(2,2);
+}
+.info {
+    margin-bottom: 2rem;
+}
+.bold {
+    color: white;
+}
