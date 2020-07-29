@@ -6,11 +6,23 @@
     background: #f5f5f5; 
     
 }
+.stick {
+    position: fixed;
+    z-index: 5;
+    background-color: rgb(201, 69, 135);
+    color: white;
+    font-size: 1.5rem;
+    left: 0rem;
+    bottom: 2rem;
+    padding: 0rem 1rem;
+}
 .nav-bar {
     display: flex;
     justify-content: flex-end;
     font-size: 1.2rem;
     font-weight: lighter;
+    text-align: right;
+    right: 0rem;
 }
 .background-box {
     padding: 25vw 25vw;
@@ -23,7 +35,7 @@
     left:-5vw;
     bottom: -2vw;
     z-index: 1;
-    overflow: hidden;
+    border-bottom-right-radius: 1rem;
 }
 
 .text-photo {
@@ -58,8 +70,9 @@
     animation: animateSaramsh 2.5s;
 }
 .nav-bar a h2 {
+    font-size: 1.5rem;
     color: #1a1919;
-    padding: 0rem 5rem;
+    padding: 0rem 2rem;
     margin-left: 2rem;
 }
 .nav-bar a :hover {

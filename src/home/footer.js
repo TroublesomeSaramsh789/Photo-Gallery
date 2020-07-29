@@ -6,9 +6,9 @@ function footer () {
         <div className="contact">
             <h2 className='bold'>Contact:</h2>
                 <ul>
-                <li><a id='facebook' href="https://www.facebook.com/profile.php?id=100011637709886"><h3>Facebook</h3></a></li>
-                <li><a id="github" href="https://github.com/TroublesomeSaramsh789"><h3>Github</h3></a></li>
-                <li><a id="instagram" href="https://www.instagram.com/saramshtroublesome/?hl=en"><h3>Instagram</h3></a></li>
+                <li><a target ="blank" id='facebook' href="https://www.facebook.com/profile.php?id=100011637709886"><h3>Facebook</h3></a></li>
+                <li><a target ="blank" id="github" href="https://github.com/TroublesomeSaramsh789"><h3>Github</h3></a></li>
+                <li><a target ="blank" id="instagram" href="https://www.instagram.com/saramshtroublesome/?hl=en"><h3>Instagram</h3></a></li>
                 </ul>                
             </div>
         <div className="info">

@@ -20,7 +20,6 @@ function Grid(prop) {
             </div>
         
         </div>
-        <h2 className="bye">-Thank You For Visiting.-</h2>
         </div>
     )
 }

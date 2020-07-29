@@ -3,7 +3,6 @@ html {
     box-sizing: border-box; 
 }
 .page2 {
-    height: 110vh;
     position: relative;
     margin-bottom: 2.5rem;
 }
@@ -16,22 +15,18 @@ html {
 h1 {
     text-align: center;
 }
-h2 {
-    color: #444444;
-    text-align: center;
-}
 
 .container {
     display: flex;
-    width: 98vw;
-    margin: 3.5rem auto;
-    justify-content: space-around;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .gallery1 {
     display: grid;
-    grid-template-rows: 35vh 35vh;
-    grid-template-columns: 19vw 9vw 19vw ;
+    grid-template-rows: 30vh 40vh;
+    grid-template-columns: 25vw 20vw 25vw ;
+    margin-bottom: 1rem;
 }
 .gallery1 .grid1 {
     grid-column: 1/3;
@@ -43,8 +38,8 @@ h2 {
 }
 .gallery2 {
     display: grid;
-    grid-template-columns: 19vw 9vw 19vw ;
-    grid-template-rows: 20vh 20vh 30vh ;
+    grid-template-columns: 20vw 20vw 30vw ;
+    grid-template-rows: 20vh 25vh 40vh ;
 }
 .gallery2 .grid1 {
     grid-column: 1/3;
@@ -65,7 +60,7 @@ h2 {
 .grid {
     border: solid #ffffff;
 }
-img {
+.page2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
